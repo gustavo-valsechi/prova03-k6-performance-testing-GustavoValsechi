@@ -34,8 +34,7 @@ export function handleSummary(data) {
 }
 
 export default function () {
-  const res = http.get({
-    baseURL: 'https://fakestoreapi.com',
+  const res = http.get("https://fakestoreapi.com", {
     headers: { 'Content-Type': 'application/json' }
   });
 
